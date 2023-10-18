@@ -12,7 +12,7 @@ const WheelsPage = () => {
       <div>
         <WheelSection />
       </div>
-      <div className='mb-[120px] md:mb-[20px] h-[390px] mt-[-100px] md:mt-[0]'>
+      <div className='mb-[120px] md:mb-[20px] lg:mb-[0] h-[390px] mt-[-100px] lg:mt-[-150px] md:mt-[0]'>
         <Search />
       </div>
       <div className='flex p-[24px] justify-center items-center bg-white/[0.4]'>

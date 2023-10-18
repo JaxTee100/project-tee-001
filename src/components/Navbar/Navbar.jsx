@@ -33,11 +33,11 @@ const Navbar = () => {
      
       <ul className={nav ? 'fixed left-0 top-24 w-[60%] h-full border-r border-r-gray-200 bg-[#fff] ease-in-out duration-500' : 'ease-in-out duration-500 fixed left-[-100%]'}>
         
-          <li className='p-4 border-b border-gray-200 text-slate-800 hover:bg-slate-100'><NavLink to='/' className={ ({isActive}) =>` ${isActive ? 'border-b-2 border-red-500  font-semibold text-red-500 underline' : ''}`}>Home</NavLink></li>
-          <li className='p-4 border-b border-gray-200 text-slate-800 hover:bg-slate-100'><NavLink to='/tires' className={ ({isActive}) =>` ${isActive ? 'border-b-2 border-red-500  font-semibold text-red-500 underline' : ''}`}>Tires</NavLink></li>
-          <li className='p-4 border-b border-gray-200 text-slate-800 hover:bg-slate-100'><NavLink to='/wheels' className={ ({isActive}) =>` ${isActive ? 'border-b-2 border-red-500  font-semibold text-red-500 underline' : ''}`}>Wheels</NavLink></li>
-          <li className='p-4 border-b border-gray-200 text-slate-800 hover:bg-slate-100'><NavLink to='/accessories' className={ ({isActive}) =>` ${isActive ? 'border-b-2 border-red-500  font-semibold text-red-500 underline' : ''}`}>Accessories</NavLink></li>
-          <li className='p-4 border-b border-gray-200 text-slate-800 hover:bg-slate-100'><NavLink to='/contacts' className={ ({isActive}) =>` ${isActive ? 'border-b-2 border-red-500  font-semibold text-red-500 underline' : ''}`}>Contact Us</NavLink></li>
+          <li className='p-4 border-b border-gray-200 text-slate-800 hover:bg-slate-100'><NavLink to='/' className={ ({isActive}) =>` ${isActive ? 'border-b-2 border-red-500  font-semibold text-red-500 ' : ''}`}>Home</NavLink></li>
+          <li className='p-4 border-b border-gray-200 text-slate-800 hover:bg-slate-100'><NavLink to='/tires' className={ ({isActive}) =>` ${isActive ? 'border-b-2 border-red-500  font-semibold text-red-500 ' : ''}`}>Tires</NavLink></li>
+          <li className='p-4 border-b border-gray-200 text-slate-800 hover:bg-slate-100'><NavLink to='/wheels' className={ ({isActive}) =>` ${isActive ? 'border-b-2 border-red-500  font-semibold text-red-500 ' : ''}`}>Wheels</NavLink></li>
+          <li className='p-4 border-b border-gray-200 text-slate-800 hover:bg-slate-100'><NavLink to='/accessories' className={ ({isActive}) =>` ${isActive ? 'border-b-2 border-red-500  font-semibold text-red-500 ' : ''}`}>Accessories</NavLink></li>
+          <li className='p-4 border-b border-gray-200 text-slate-800 hover:bg-slate-100'><NavLink to='/contacts' className={ ({isActive}) =>` ${isActive ? 'border-b-2 border-red-500  font-semibold text-red-500 ' : ''}`}>Contact Us</NavLink></li>
       </ul>
       
       <ul className='hidden w-[598px] h-[51px] xl:flex justify-between text-[#1e293b] '>
