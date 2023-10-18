@@ -37,6 +37,7 @@ const Navbar = () => {
           <li className='p-4 border-b border-gray-200 text-slate-800 hover:bg-slate-100'><NavLink to='/tires' className={ ({isActive}) =>` ${isActive ? 'border-b-2 border-red-500  font-semibold text-red-500 ' : ''}`}>Tires</NavLink></li>
           <li className='p-4 border-b border-gray-200 text-slate-800 hover:bg-slate-100'><NavLink to='/wheels' className={ ({isActive}) =>` ${isActive ? 'border-b-2 border-red-500  font-semibold text-red-500 ' : ''}`}>Wheels</NavLink></li>
           <li className='p-4 border-b border-gray-200 text-slate-800 hover:bg-slate-100'><NavLink to='/accessories' className={ ({isActive}) =>` ${isActive ? 'border-b-2 border-red-500  font-semibold text-red-500 ' : ''}`}>Accessories</NavLink></li>
+          <li className='p-4 border-b border-gray-200 text-slate-800 hover:bg-slate-100'><NavLink to='/packages' className={ ({isActive}) =>` ${isActive ? 'border-b-2 border-red-500  font-semibold text-red-500 ' : ''}`}>Packages</NavLink></li>
           <li className='p-4 border-b border-gray-200 text-slate-800 hover:bg-slate-100'><NavLink to='/contacts' className={ ({isActive}) =>` ${isActive ? 'border-b-2 border-red-500  font-semibold text-red-500 ' : ''}`}>Contact Us</NavLink></li>
       </ul>
       
@@ -45,6 +46,7 @@ const Navbar = () => {
         <li className='p-4 hover:bg-slate-100'><NavLink to='/tires' className={ ({isActive}) =>` ${isActive ? 'border-b-2 border-red-500  font-semibold text-red-500' : ''}`}>Tires</NavLink></li>
         <li className='p-4 hover:bg-slate-100'><NavLink to='/wheels' className={ ({isActive}) =>` ${isActive ? 'border-b-2 border-red-500  font-semibold text-red-500' : ''}`}>Wheels</NavLink></li>
         <li className='p-4 hover:bg-slate-100'><NavLink to='/accessories'className={ ({isActive}) =>` ${isActive ? 'border-b-2 border-red-500  font-semibold text-red-500' : ''}`}>Accessories</NavLink></li>
+        <li className='p-4 hover:bg-slate-100'><NavLink to='/packages' className={ ({isActive}) =>` ${isActive ? 'border-b-2 border-red-500  font-semibold text-red-500' : ''}`}>Packages</NavLink></li>
         <li className='p-4 hover:bg-slate-100'><NavLink to='/contacts' className={ ({isActive}) =>` ${isActive ? 'border-b-2 border-red-500  font-semibold text-red-500' : ''}`}>Contact Us</NavLink></li>
       </ul>
 
