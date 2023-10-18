@@ -1,0 +1,5 @@
+export {default as HomePage} from '../pages/Home/HomePage'
+export {default as TiresPage} from '../pages/Tires/TiresPage'
+export {default as WheelsPage} from '../pages/Wheels/WheelsPage'
+export {default as AccessoriesPage} from '../pages/Accessories/AccessoriesPage'
+export {default as ContactsPage} from '../pages/Contacts/ContactPage'
