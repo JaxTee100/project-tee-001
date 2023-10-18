@@ -31,7 +31,7 @@ const Navbar = () => {
       </div>
       
      
-      <ul className={nav ? 'fixed left-0 top-24 w-[60%] h-full border-r border-r-gray-200 bg-[#fff] ease-in-out duration-500' : 'ease-in-out duration-500 fixed left-[-100%]'}>
+      <ul className={nav ? 'fixed left-0 top-24 w-[60%] h-full border-r border-r-gray-200 bg-[#fff] ease-in-out duration-500 z-[20]' : 'ease-in-out duration-500 fixed left-[-100%]'}>
         
           <li className='p-4 border-b border-gray-200 text-slate-800 hover:bg-slate-100'><NavLink to='/' className={ ({isActive}) =>` ${isActive ? 'border-b-2 border-red-500  font-semibold text-red-500 ' : ''}`}>Home</NavLink></li>
           <li className='p-4 border-b border-gray-200 text-slate-800 hover:bg-slate-100'><NavLink to='/tires' className={ ({isActive}) =>` ${isActive ? 'border-b-2 border-red-500  font-semibold text-red-500 ' : ''}`}>Tires</NavLink></li>
@@ -56,7 +56,7 @@ const Navbar = () => {
              Sign In
          </button>
          { showDrop && 
-         <div className='absolute bg-white border top-[95px] right-1 lg:top-[100px] lg:right-[150px] lg:w-[251px] h-[280px] rounded-md shadow-md'>
+         <div className='absolute bg-white border top-[95px] right-1 lg:top-[100px] lg:right-[150px] lg:w-[251px] h-[280px] rounded-md shadow-md z-[15]'>
           <p className='h-[56px] px-[24px] py-[16px]  hover:bg-slate-100 text-slate-700'>Leads</p>
           <p className='h-[56px] px-[24px] py-[16px] hover:bg-slate-100 text-slate-700'>Quotes & Orders</p>
           <p className='h-[56px] px-[24px] py-[16px] hover:bg-slate-100 text-slate-700'>CMS</p>

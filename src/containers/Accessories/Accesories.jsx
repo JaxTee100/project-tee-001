@@ -7,11 +7,11 @@ const Accesories = () => {
   return (
     <div className='flex justify-center flex-col lg:w-[1536px]  lg:mx-auto'>
         <div className='w-[358px] md:w-[696px] lg:w-[1536px] h-[42px] md:h-[60px] lg:h-[75px] mb-[24px] md:mb-[30px] flex flex-col text-left gap-[10px]'>
-            <h2 className='font-semibold text-[16px] md:text-[24px] lg:text-[32px]'>CR-V Hybrid Touring</h2>
-            <div className='flex justify-between '>
-                <p className='text-[12px] md:text-[16px] lg:text-[18px] font-normal'>Here are some accessories for your car</p>
+            <h2 className='font-semibold text-[16px] md:text-[24px] lg:text-[32px] text-[#1e293b]'>CR-V Hybrid Touring</h2>
+            <div className='flex justify-between items-center'>
+                <p className='text-[12px] md:text-[16px] lg:text-[18px] font-normal text-[#1e293b]'>Here are some accessories for your car</p>
                 <div className='flex  items-center w-[81px] h-[27px] gap-[8px]'>
-                    <PiFunnelSimpleBold size={20}/>
+                    <PiFunnelSimpleBold className='text-[18px] text-[#1e293b]'/>
                     <p className='text-[12px] md:text-[18px] font-normal'>Filters</p>
                 </div>
             </div>

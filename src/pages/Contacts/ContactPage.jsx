@@ -7,7 +7,7 @@ const ContactPage = () => {
       <div>
         <NavbarComponent />
       </div>
-      <div>
+      <div className='p-4 lg:p-8'>
         <ContactSection />
       </div>
       

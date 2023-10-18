@@ -1,6 +1,6 @@
 import React from 'react'
 import { NavbarComponent } from '../../components'
-import { Packages } from '../../containers'
+import { Packages, SearchFilter } from '../../containers'
 
 const PackagesPage = () => {
   return (
@@ -8,9 +8,15 @@ const PackagesPage = () => {
       <div>
         <NavbarComponent />
       </div>
-      <div>
-        <Packages />
+      <div className='flex flex-col gap-[24px]'>
+        <div className='lg:p-[20px]'>
+          <SearchFilter />
+        </div>
+        <div>
+          <Packages />
+        </div>
       </div>
+      
     </div>
   )
 }

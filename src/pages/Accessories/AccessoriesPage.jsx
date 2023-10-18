@@ -4,14 +4,14 @@ import { Accessories, SearchFilter } from '../../containers'
 
 const AccessoriesPage = () => {
   return (
-    <div>
-      <div>
+    <div className='relative flex flex-col bg-slate-50'>
+      <div className='bg-white/[0.45]'>
         <NavbarComponent />
       </div>
-      <div>
+      <div className='p-4'>
         <SearchFilter />
       </div>
-      <div>
+      <div className='p-4'>
         <Accessories />
       </div>
       
