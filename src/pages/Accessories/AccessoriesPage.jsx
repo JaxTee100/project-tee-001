@@ -8,7 +8,7 @@ const AccessoriesPage = () => {
       <div className='bg-white/[0.45]'>
         <NavbarComponent />
       </div>
-      <div className='p-4'>
+      <div className='p-4 border  lg:flex lg:justify-center'>
         <SearchFilter />
       </div>
       <div className='p-4'>

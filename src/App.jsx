@@ -1,14 +1,15 @@
-import React from 'react'
+import React, { useRef, useState, useEffect } from 'react'
 import {BrowserRouter as Router, Route, Routes} from 'react-router-dom'
 import { AccessoriesPage, ContactsPage, HomePage, PackagesPage, TiresPage, WheelsPage } from './pages';
-import { DropdownComponent } from './components';
+import { BrandDropdown, DropdownComponent, ItemsDropdown, ModelDropdown, PostalDropdown, YearDropdown, ButtonComponent } from './components';
+import { Accessories, FilterContainer, SearchFilter } from './containers';
 import('preline')
 
 
 function App() {
-  return (
+return (
     <Router>
-      <Routes>
+      <Routes> 
         <Route path='/' exact element={<HomePage />} />
         <Route path='/tires' element={<TiresPage />} />
         <Route path='/wheels' element={<WheelsPage />} />
@@ -19,7 +20,7 @@ function App() {
       </Routes>
     </Router>
     
-    
+   
     
   );
 }

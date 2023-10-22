@@ -6,3 +6,6 @@ export {default as Packages} from '../containers/Packages/Packages'
 
 
 export {default as SearchFilter} from '../containers/search-filter/SearchFilter'
+
+
+export {default as FilterContainer} from '../containers/filter-container/FilterContainer'

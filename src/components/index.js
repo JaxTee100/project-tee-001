@@ -40,3 +40,6 @@ export {default as WheelSection} from '../components/Wheel-section/WheelSection'
 export {default as ContactSection} from '../components/contact/Contact'
 
 export {default as Search } from '../components/Search/Search'
+
+
+export {default as ButtonComponent} from '../components/button/Button' 
