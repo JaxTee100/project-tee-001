@@ -12,16 +12,16 @@ const Contact = () => {
             <p className='text-[14px]'>Back to Quote</p>
         </div>
 
-        <div className='flex flex-col md:flex-row justify-between md:items-center w-[350px] md:w-[696px] lg:w-[1536px] h-[99px] md:h-[51px] lg:h-[83px]  mx-auto '>
+        <div className='flex flex-col md:flex-row justify-between md:items-center w-full h-[99px] md:h-[51px] lg:h-[83px]  mx-auto '>
             <h2 className='font-semibold text-[24px] lg:text-[32px] text-[#1e293b]'>Contact Us</h2>
-            <button className='w-[350px] lg:w-[249px] h-[51px] px-[28px] py-[12px] flex items-center justify-center gap-[10px] font-semibold text-[#ea0029] text-[18px] lg:text-[16px] border border-[#ea0029] hover:bg-red-50 rounded-[39px]'>
+            <button className='w-full md:w-[269px] lg:w-[249px] h-[51px] px-[28px] py-[12px] flex items-center justify-center gap-[10px] font-semibold text-[#ea0029] text-[18px] lg:text-[16px] border border-[#ea0029] hover:bg-red-50 rounded-[39px]'>
                 Book a Training Session
             </button>   
         </div>
         
-        <div className='lg:w-[1536px] lg:h-[843px] flex flex-col gap-[24px] lg:gap-[48px] lg:px-[80px] lg:py-[48px] lg:mx-auto lg:rounded-[16px]  lg:border'>
+        <div className=' lg:w-full lg:h-[843px] flex flex-col gap-[24px] lg:gap-[48px] lg:px-[80px] lg:py-[48px] lg:mx-auto lg:rounded-[16px]  lg:border'>
 
-          <div className='w-[350px] md:w-[696px] lg:w-[1376px] h-[310px] md:h-[208px] lg:h-[256px]  grid grid-cols-1 md:grid-cols-3 gap-[12px] md:gap-[16px]  mx-auto'>
+          <div className=' max-w-[350px] md:max-w-[696px] lg:max-w-[1376px] max-h-[310px] md:max-h-[208px] lg:max-h-[256px]  grid grid-cols-1 md:grid-cols-3 gap-[12px] md:gap-[16px]  mx-auto'>
             <div className=' h-[92px] md:h-[208px] lg:h-[256px] flex md:flex-col justify-start items-center  gap-[16px] px-[12px] py-[16px] md:p-[24px] lg:p-[48px] border rounded-[16px] shadow-sm lg:shadow-md hover:bg-slate-50'>
               <div className='w-[60px] h-[60px] rounded-[50%] bg-red-200 flex justify-center items-center'>
                 <FaPhoneAlt className='text-[#ea0029] text-[20px]'/>
@@ -41,13 +41,13 @@ const Contact = () => {
                 <p className='text-[14px] md:text-[16px] text-[#4b5563]'>honda@gmail.com</p>
               </div>
             </div>
-            <div className='flex md:flex-col justify-start items-center h-[92px] md:h-[208px] lg:h-[256px] gap-[16px] px-[12px] py-[16px] md:p-[24px] lg:p-[48px] border rounded-[16px] shadow-sm lg:shadow-md hover:bg-slate-50'>
+            <div className='flex md:flex-col justify-start items-center h-[92px] md:h-[208px] lg:h-[256px] gap-[16px] px-[12px] py-[16px] md:p-[24px] lg:px-[28px] lg:py-[48px] border rounded-[16px] shadow-sm lg:shadow-md hover:bg-slate-50'>
               <div className='w-[60px] h-[60px] rounded-[50%] bg-red-200 flex justify-center items-center '>
                 <HiLocationMarker className='text-[#ea0029] text-[20px]'/>
               </div>
-              <div className='flex flex-col md:items-center  gap-[8px]'>
+              <div className='flex flex-col md:items-center lg:justify-end gap-[8px]'>
                 <h3 className='font-semibold text-[20px] text-[#1f2937]'>Address</h3>
-                <p className='text-[14px] md:text-[16px] text-[#4b5563] flex-wrap  md:text-center'>13245-OakStret, New york City <span className='text-[12px] lg:text-[16px]'>(9123400)</span></p>
+                <p className='lg:max-w-full   text-[14px] md:text-[16px] text-[#4b5563]   md:text-center'>13245-OakStret, New york City <span className='text-[12px] lg:text-[16px]'>(9123400)</span></p>
               </div>
             </div>
           </div>

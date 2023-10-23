@@ -17,7 +17,7 @@ const PackagesPage = () => {
         </div>
       </div>
       
-    </div>
+    // </div>
   )
 }
 
