@@ -2,7 +2,7 @@ import React, {useState} from 'react'
 import {PiShoppingCartSimple} from 'react-icons/pi'
 import {AiOutlineMenu, AiOutlineClose} from 'react-icons/ai'
 import Logo from '../../assets/navbar/honda-group.png'
-import { NavLink } from 'react-router-dom';
+import { Link, NavLink } from 'react-router-dom';
 
 
 const Navbar = () => {
@@ -24,9 +24,12 @@ const Navbar = () => {
         <div onClick={handleNav} className='block xl:hidden me-[10px]'>
             {nav ? <AiOutlineClose className='text-slate-800' size={20}/> : <AiOutlineMenu className='text-slate-800' size={20} />}
         </div>
+        
         <div className='flex w-[150.67px] h-[24px] md:w-[264px] md-h-[30px]  justify-between items-center'>
-          <img src={Logo} alt='my-logo' />
-          <p className='hidden md:flex lg:text-[14px] text-[#1e293b] md:text-[12px]'>Northern Honda</p>       
+          
+          <Link to='/'><img src={Logo} alt='my-logo' /></Link>
+          <p className='hidden md:flex lg:text-[14px] text-[#1e293b] md:text-[12px]'>Northern Honda</p>    
+            
         </div>
       </div>
       
